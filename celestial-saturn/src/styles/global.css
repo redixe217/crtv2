@@ -26,6 +26,8 @@ footer {
 
 .logo {
   height: 28px;
+  position: absolute;
+  left: 48%;
 }
 
 .menu-icon {

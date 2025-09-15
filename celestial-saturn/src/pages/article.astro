@@ -1,7 +1,9 @@
-
 ---
 import "../styles/global.css";
+import Top from "../components/top.astro";
+import Footer from "../components/footer.astro";
 ---
+
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
@@ -9,112 +11,147 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <!-- Header (samme som forside) -->
-    <header>
-      <div class="header-top">
-        <img src="/menu.svg" alt="menu" class="menu-icon" />
-        <img src="/logo.svg" alt="logo" class="logo" />
-        <span></span>
-        <img src="/search.svg" alt="søg" class="search" />
-      </div>
-      <div class="banner">
-        <img src="/banner-logo.svg" alt="banner logo" class="banner-logo" />
-      </div>
-    </header>
+    <Top />
 
     <!-- Artikel indhold -->
-    <main style="max-width: 980px; margin: 32px auto 0 auto; background: #fff; padding-bottom: 32px;">
-      <h1 style="font-size:2rem; font-weight: bold; text-align: center; margin-top: 40px;">
-        48 HOURS IN BERLIN - A CREATIVE<br>GUIDE TO INSPIRATION
+    <main
+      style="max-width: 980px; margin: 32px auto 0 auto; background: #fff; padding-bottom: 32px;"
+    >
+      <h1
+        style="font-size:2rem; font-weight: bold; text-align: center; margin-top: 40px;"
+      >
+        48 HOURS IN BERLIN - A CREATIVE<br />GUIDE TO INSPIRATION
       </h1>
-      <div style="text-align: center; max-width: 620px; margin: 16px auto 30px auto; font-size:15px; color:#222;">
-        Berlin is Europe’s creative melting pot – full of art, design, street culture, and hidden corners that spark inspiration. Whether you’re studying, freelancing, or just exploring, here’s how to spend two days in the city like a true creative – with budget-friendly cafés, inspiring galleries, and unforgettable urban vibes.
+      <div
+        style="text-align: center; max-width: 620px; margin: 16px auto 30px auto; font-size:15px; color:#222;"
+      >
+        Berlin is Europe’s creative melting pot – full of art, design, street
+        culture, and hidden corners that spark inspiration. Whether you’re
+        studying, freelancing, or just exploring, here’s how to spend two days
+        in the city like a true creative – with budget-friendly cafés, inspiring
+        galleries, and unforgettable urban vibes.
       </div>
-      <hr style="border: none; border-top: 2px solid #e95d1b; width: 99%; margin-bottom: 36px;" />
-      <img src="https://picsum.photos/820/320?berlin1" alt="" style="width: 90%; max-width:900px; margin: 0 auto 32px auto; display: block;" />
+      <hr
+        style="border: none; border-top: 2px solid #e95d1b; width: 99%; margin-bottom: 36px;"
+      />
+      <img
+        src="https://picsum.photos/820/320?berlin1"
+        alt=""
+        style="width: 90%; max-width:900px; margin: 0 auto 32px auto; display: block;"
+      />
 
-      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">DAY 1 – URBAN VIBES & HIDDEN GEMS</h2>
+      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">
+        DAY 1 – URBAN VIBES & HIDDEN GEMS
+      </h2>
       <div style="margin-bottom: 28px; font-size:14px;">
         <b>Breakfast at Five Elephant (Kreuzberg)</b><br />
-        Kick off your day with specialty coffee and a slice of their famous cheesecake at Five Elephant. The café’s relaxed, minimalist design makes it perfect to get into a creative workspace, sketch, or just people-watch the streets.<br /><br />
+        Kick off your day with specialty coffee and a slice of their famous cheesecake
+        at Five Elephant. The café’s relaxed, minimalist design makes it perfect
+        to get into a creative workspace, sketch, or just people-watch the streets.<br
+        /><br />
 
         <b>Street art tours & East Side Gallery & YAAM</b><br />
-        Join a graffiti tour or stroll along what remains of the East Side Gallery – the world’s longest open-air mural. Soak up Berlin’s street art history. For lunch and good vibes, relax on the riverside at YAAM (Young African Art Market), where graffiti walls, live music, and food stalls create a colorful, multicultural atmosphere.<br /><br />
+        Join a graffiti tour or stroll along what remains of the East Side Gallery
+        – the world’s longest open-air mural. Soak up Berlin’s street art history.
+        For lunch and good vibes, relax on the riverside at YAAM (Young African Art
+        Market), where graffiti walls, live music, and food stalls create a colorful,
+        multicultural atmosphere.<br /><br />
 
         <b>Co-working hubs & boutiques (Kreuzberg)</b><br />
-        If you’re into focus zones with an artsy open-space vibe, grab a pass at betahaus. This co-working hub buzzes with young programmers, designers, and makers. Their green courtyard and affordable vegan snacks and smoothies are perfect for recharging mid-day.<br /><br />
+        If you’re into focus zones with an artsy open-space vibe, grab a pass at
+        betahaus. This co-working hub buzzes with young programmers, designers, and
+        makers. Their green courtyard and affordable vegan snacks and smoothies are
+        perfect for recharging mid-day.<br /><br />
 
         <b>Lunch at Burgermesiter</b><br />
-        Located in the railway tracks in Kreuzberg, Burgermeister serves some of the city’s best burgers from what used to be a public restroom – quirky, raw, and very Berlin.<br /><br />
+        Located in the railway tracks in Kreuzberg, Burgermeister serves some of
+        the city’s best burgers from what used to be a public restroom – quirky,
+        raw, and very Berlin.<br /><br />
 
         <b>Afternoon at Voo Store & Five Elephant (Neukölln)</b><br />
-        Time for shopping and more treats at Five Elephant in Neukölln. The iconic 1960s building has serene vintage charm. It is both bright and clean, with interiors that feel straight out of a design magazine.
+        Time for shopping and more treats at Five Elephant in Neukölln. The iconic
+        1960s building has serene vintage charm. It is both bright and clean, with
+        interiors that feel straight out of a design magazine.
       </div>
-      <img src="https://picsum.photos/700/280?berlin2" alt="" style="width: 70%; max-width:620px; margin: 0 auto 32px auto; display: block;" />
+      <img
+        src="https://picsum.photos/700/280?berlin2"
+        alt=""
+        style="width: 70%; max-width:620px; margin: 0 auto 32px auto; display: block;"
+      />
 
-      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">DAY 2 – ART, CULTURE & CHILL</h2>
+      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">
+        DAY 2 – ART, CULTURE & CHILL
+      </h2>
       <div style="margin-bottom: 28px; font-size:14px;">
         <b>Morning coffee at The Barn (Mitte)</b><br />
-        Start your second day at The Barn, one of Berlin’s most famous roasteries. Their industrial-chic café is popular with designers and students who want to sip coffee and sketch ideas while people-watching.<br /><br />
+        Start your second day at The Barn, one of Berlin’s most famous roasteries.
+        Their industrial-chic café is popular with designers and students who want
+        to sip coffee and sketch ideas while people-watching.<br /><br />
 
         <b>Art: König Galerie & Hamburger Bahnhof</b><br />
-        Spend your late morning exploring König Galerie, a innovative contemporary art gallery housed in a converted Brutalist church. For something heady, check out Hamburger Bahnhof (Berlin’s Museum for Actual Art), where you’ll want to sketch by Andy Warhol, Joseph Beuys, and rising European talent.<br /><br />
+        Spend your late morning exploring König Galerie, a innovative contemporary
+        art gallery housed in a converted Brutalist church. For something heady,
+        check out Hamburger Bahnhof (Berlin’s Museum for Actual Art), where you’ll
+        want to sketch by Andy Warhol, Joseph Beuys, and rising European talent.<br
+        /><br />
 
         <b>Afternoon at Mauerpark</b><br />
-        Sundays in Mauerpark are legendary. Browse the market stalls for vintage clothes, flip through old magazines, or just sit on the grass while live musicians strum away. If you’re brave, step up on the karaoke stage – Berlin tradition!<br /><br />
+        Sundays in Mauerpark are legendary. Browse the market stalls for vintage
+        clothes, flip through old magazines, or just sit on the grass while live
+        musicians strum away. If you’re brave, step up on the karaoke stage – Berlin
+        tradition!<br /><br />
 
         <b>Close the day: Klunkerkranich (Neukölln rooftop)</b><br />
-        End the day with dinner near Neukölln’s Heimathafen, a buzzing indoor market hall. On street food nights, head up to the Klunkerkranich rooftop and set up while snacking, mix art installations and exciting nightlife.<br /><br />
+        End the day with dinner near Neukölln’s Heimathafen, a buzzing indoor market
+        hall. On street food nights, head up to the Klunkerkranich rooftop and set
+        up while snacking, mix art installations and exciting nightlife.<br
+        /><br />
 
         <b>Nightlife tip: Berghain Kantine or Sisyphos</b><br />
-        If you want the classic Berlin experience, dip into the notorious Berghain queues, try Sisyphos for something more chill and décor is stylish. Sisyphos is a converted club with art markets and music stages. Both are popular with the creative crowd.
+        If you want the classic Berlin experience, dip into the notorious Berghain
+        queues, try Sisyphos for something more chill and décor is stylish. Sisyphos
+        is a converted club with art markets and music stages. Both are popular with
+        the creative crowd.
       </div>
-      <img src="https://picsum.photos/800/280?berlin3" alt="" style="width: 80%; max-width:820px; margin: 0 auto 32px auto; display: block;" />
+      <img
+        src="https://picsum.photos/800/280?berlin3"
+        alt=""
+        style="width: 80%; max-width:820px; margin: 0 auto 32px auto; display: block;"
+      />
 
-      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">INSIDER & BUDGET TIPS</h2>
+      <h2 style="font-size:1.09rem; margin: 30px 0 8px 0; font-weight: bold;">
+        INSIDER & BUDGET TIPS
+      </h2>
       <ul style="font-size:14px; margin-bottom: 26px;">
-        <li>Many galleries (like Hamburger Bahnhof) offer free entry on Thursdays after 6 pm.</li>
-        <li>Berlin’s metro app NextStop is great for indie-friendly creative routes through overlooked neighborhoods.</li>
-        <li>Pack a smartphone, charger, and notebook – grab a 48-hour ticket for unlimited U-Bahn and trams all zones.</li>
-        <li>Make room design books and zines, don’t miss old mural itself in Mitte’s creative bookshops (book shopping is an art and vacation ritual…)</li>
+        <li>
+          Many galleries (like Hamburger Bahnhof) offer free entry on Thursdays
+          after 6 pm.
+        </li>
+        <li>
+          Berlin’s metro app NextStop is great for indie-friendly creative
+          routes through overlooked neighborhoods.
+        </li>
+        <li>
+          Pack a smartphone, charger, and notebook – grab a 48-hour ticket for
+          unlimited U-Bahn and trams all zones.
+        </li>
+        <li>
+          Make room design books and zines, don’t miss old mural itself in
+          Mitte’s creative bookshops (book shopping is an art and vacation
+          ritual…)
+        </li>
       </ul>
-      <div style="font-size:13px; color:#444; max-width:640px; margin:auto; text-align:center;">
-        Two days in Berlin will only scratch the surface, but by focusing on creative spaces, local cafés, and quirky hangouts, you’ll learn to fall in love the city very gently. Berlin is place where art is everywhere – on the walls, in the clubs, in the food market – and it’s the perfect escape for young creatives looking to recharge and get inspired.
+      <div
+        style="font-size:13px; color:#444; max-width:640px; margin:auto; text-align:center;"
+      >
+        Two days in Berlin will only scratch the surface, but by focusing on
+        creative spaces, local cafés, and quirky hangouts, you’ll learn to fall
+        in love the city very gently. Berlin is place where art is everywhere –
+        on the walls, in the clubs, in the food market – and it’s the perfect
+        escape for young creatives looking to recharge and get inspired.
       </div>
     </main>
 
-    <!-- Newsletter sektion -->
-    <section class="newsletter-section">
-      <div class="newsletter-title">DESIGN NEWS TO<br />YOUR INBOX</div>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Email" />
-        <button type="submit">SIGN UP</button>
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-col">
-        <strong>CREATIVE ESCAPE</strong>
-        <div class="footer-links" style="margin-top:14px;">
-          Art<br/>Design<br/>Architecture
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-links">
-          Website<br/>Podcast<br/>Authors
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-links">
-          Styleguide<br/>Licensing<br/>Changelog
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-socials">
-          <span>🌐</span><span>📷</span><span>▶️</span><span>🐦</span>
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </body>
 </html>
