@@ -1,0 +1,40 @@
+---
+import "../styles/global.css";
+import Top from "../components/Top.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <title>48 Hours in Berlin – CRTV ESC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <Top />
+
+    <!-- Artikel indhold -->
+    <main class="article-main">
+      <h1 class="article-titel">article-titel</h1>
+      <p class="body-text"></p>
+      <img class="article-img-top" src="../src/assets/img1.png" alt="" />
+
+      <div class="article-text">
+        <h2 class="article-titel-main">article-titel-main</h2>
+        <p class="body-text">Test</p>
+      </div>
+      <div class="article-text">
+        <img class="article-img" src="../src/assets/img1.png" alt="" />
+        <h2 class="article-titel-main">article-titel-main</h2>
+        <p class="body-text">Test</p>
+      </div>
+      <div class="article-text">
+        <img class="article-img" src="../src/assets/img1.png" alt="" />
+        <h2 class="article-titel-main">article-titel-main</h2>
+        <p class="body-text">Test</p>
+      </div>
+    </main>
+
+    <Footer />
+  </body>
+</html>
