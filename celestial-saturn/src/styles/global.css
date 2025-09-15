@@ -201,7 +201,7 @@ footer {
 }
 
 .newsletter-section {
-  background: #181818;
+  background: #0c285c;
   color: #fff;
   padding: 48px 8vw;
   text-align: left;
@@ -230,14 +230,14 @@ footer {
 .newsletter-form button {
   padding: 8px 20px;
   border: none;
-  background: #222;
+  background: #0c285c;
   color: #fff;
   border-radius: 2px;
   cursor: pointer;
 }
 
 footer {
-  background: #111;
+  background: #0a214b;
   color: #ddd;
   padding: 32px 8vw 18px 8vw;
   display: flex;
