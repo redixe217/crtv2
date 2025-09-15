@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import Top from "../components/top.astro";
+import Footer from "../components/footer.astro";
 ---
 
 <html lang="da">
@@ -9,23 +11,7 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <div class="header-top">
-        <img src="/menu.svg" alt="menu" class="menu-icon" />
-        <img src="../src/assets/top_logo.png" alt="logo" class="logo" />
-        <span></span>
-        <img src="/search.svg" alt="søg" class="search" />
-      </div>
-      <div class="banner">
-        <img
-          src="../src/assets/logo.png"
-          alt="banner logo"
-          class="banner-logo"
-        />
-      </div>
-    </header>
-
+    <Top />
     <!-- Main content -->
     <div class="main-content">
       <!-- Venstre artikler -->
@@ -154,38 +140,6 @@ import "../styles/global.css";
       <div style="font-size:12px;color:#777;">Ljubljana, Slovenia</div>
     </div>
 
-    <!-- Newsletter sektion -->
-    <section class="newsletter-section">
-      <div class="newsletter-title">DESIGN NEWS TO<br />YOUR INBOX</div>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Email" />
-        <button type="submit">SIGN UP</button>
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-col">
-        <strong>CREATIVE ESCAPE</strong>
-        <div class="footer-links" style="margin-top:14px;">
-          Art<br />Design<br />Architecture
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-links">
-          Website<br />Podcast<br />Authors
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-links">
-          Styleguide<br />Licensing<br />Changelog
-        </div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-socials">
-          <span>🌐</span><span>📷</span><span>▶️</span><span>🐦</span>
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </body>
 </html>
