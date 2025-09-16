@@ -321,3 +321,17 @@ img.article-img {
   height: auto;
   display: block;
 } */
+
+/* Nedenstående er alt der skal have fonten Anton */
+
+@font-face {
+  font-family: Anton;
+  src: url(fonts/Anton-Regular.ttf);
+}
+
+u, .feature-title, .featured-titel-ARTICLES, .featured-titel, .news-section p, .news-title, .metelkova
+{font-family: Anton;
+font-weight: 10;
+letter-spacing: 2px;}
+
+
