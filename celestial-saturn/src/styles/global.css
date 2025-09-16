@@ -20,7 +20,12 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 12px 32px 6px 16px;
-  background: #1c3a72;
+  /* background: #192d18; */
+}
+
+.banner-bar {
+  border-top: 1px solid #000;
+  padding-top: 40px;
 }
 
 .logo {
@@ -41,7 +46,7 @@ footer {
 }
 
 .banner {
-  /* background: #1c3a72; */
+  background: #192d18;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +111,7 @@ footer {
 }
 
 .featured-section {
-  background: #1c3a72;
+  background: #192d18;
   padding: 38px 8vw 32px 8vw;
   color: #fff;
 }
@@ -145,7 +150,7 @@ footer {
 
 .hero-img {
   width: 65%;
-  height: 220px;
+  height: 480px;
   object-fit: cover;
   background: #eee;
 }
@@ -199,7 +204,7 @@ footer {
 }
 
 .newsletter-section {
-  background: #0c285c;
+  background: #192d18;
   color: #fff;
   padding: 48px 8vw;
   text-align: left;
@@ -228,14 +233,14 @@ footer {
 .newsletter-form button {
   padding: 8px 20px;
   border: none;
-  background: #0c285c;
-  color: #fff;
+  background: #fff;
+  color: #000;
   border-radius: 2px;
   cursor: pointer;
 }
 
 footer {
-  background: #0a214b;
+  background: #192d18;
   color: #ddd;
   padding: 32px 8vw 18px 8vw;
   display: flex;
