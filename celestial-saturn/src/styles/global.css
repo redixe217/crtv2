@@ -329,9 +329,19 @@ img.article-img {
   src: url(fonts/Anton-Regular.ttf);
 }
 
-u, .feature-title, .featured-titel-ARTICLES, .featured-titel, .news-section p, .news-title, .metelkova
-{font-family: Anton;
-font-weight: 10;
-letter-spacing: 2px;}
-
-
+u,
+.feature-title,
+.featured-titel-ARTICLES,
+.featured-titel,
+.news-section p,
+.news-title,
+.metelkova,
+h1,
+h2 {
+  font-family: Anton;
+  font-weight: 10;
+  letter-spacing: 2px;
+}
+a:hover {
+  text-decoration: underline;
+}
